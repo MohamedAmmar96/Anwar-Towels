@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "light";
+    src: url("../webfonts/JFlat/JFlat/JF-Flat-light.ttf")
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("../webfonts/JFlat/JFlat/JF-Flat-medium.ttf")
+}
+
+@font-face {
+    font-family: "regular";
+    src: url("../webfonts/JFlat/JFlat/JF-Flat-regular.ttf")
+}
