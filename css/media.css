@@ -99,12 +99,11 @@
             width: 260px;
         }
         .fav .fav-box {
-            right: -130px;
-            transform: translateX(0);
+            left: -30px;
         }
         html[dir=ltr] .fav .fav-box {
-            right: auto;
-            left: -130px;
+            left: auto;
+            right: -30px;
         }
         /*** Start of Side Menu ***/
         .mo-nav {
@@ -436,11 +435,22 @@
             width: calc(100% - 10%);
         }
         .fav .fav-box {
-            right: -160px;
+            left: -10px;
         }
         html[dir=ltr] .fav .fav-box {
-            right: auto;
-            left: -160px;
+            right: -10px;
+        }
+        .features .feature {
+            margin-left: 0;
+        }
+        html[dir=ltr] .features .feature {
+            margin-right: 0;
+        }
+        html[dir=ltr] .feature-content .feature-name {
+            font-size: 13px;
+        }
+        html[dir=ltr] .feature-content .feature-desc {
+            font-size: 11px;
         }
     }
     /*********************  Small Screens *********************/
@@ -544,12 +554,11 @@
             width: 300px;
         }
         .fav .fav-box {
-            right: -85px;
-            transform: translateX(0);
+            left: -80px;
         }
         html[dir=ltr] .fav .fav-box {
-            right: auto;
-            left: -85px;
+            left: auto;
+            right: -80px;
         }
         /*** Start of Side Menu ***/
         .mo-nav {

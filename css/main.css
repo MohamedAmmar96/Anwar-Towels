@@ -577,8 +577,8 @@
         .fav .fav-box {
             position: absolute;
             top: 40px;
-            right: 50%;
-            transform: translateX(75%);
+            left: -80px;
+            /* transform: translateX(75%); */
             width: 200px;
             height: 150px;
             background-color: #fff;
@@ -595,9 +595,8 @@
         }
         
         html[dir=ltr] .fav .fav-box {
-            right: auto;
-            left: 50%;
-            transform: translateX(-75%);
+            right: -80px;
+            left: auto;
         }
         
         .fav-box .fav-content {
