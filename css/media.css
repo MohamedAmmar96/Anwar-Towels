@@ -86,9 +86,6 @@
         html[dir=ltr] .rools .search-box {
             margin-right: 0;
         }
-        .rools .close-search-btn {
-            /* display: block; */
-        }
         .open-search::after {
             content: "\e86f";
             font-family: "Linearicons-Free";
@@ -415,11 +412,11 @@
             justify-content: flex-start;
         }
         .menu-search .search {
-            margin-left: 10px;
+            margin-left: 15px;
         }
         html[dir=ltr] .menu-search .search {
             margin-left: 0;
-            margin-right: 10px;
+            margin-right: 15px;
         }
         .header-content .logo-box {
             height: 70px;
@@ -429,11 +426,11 @@
             justify-content: flex-end;
         }
         .terms .shop {
-            margin-left: 10px;
+            margin-left: 15px;
         }
         html[dir=ltr] .terms .shop {
             margin-left: 0;
-            margin-right: 10px;
+            margin-right: 15px;
         }
         .rools .search-box {
             width: calc(100% - 10%);
@@ -533,9 +530,6 @@
         }
         html[dir=ltr] .rools .search-box {
             margin-right: 0;
-        }
-        .rools .close-search-btn {
-            /* display: block; */
         }
         .open-search::after {
             content: "\e86f";
